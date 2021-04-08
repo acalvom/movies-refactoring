@@ -5,13 +5,11 @@ public abstract class Movie {
 	private static final int FREQUENT_RENTER_POINTS = 1;
 
 	private String title;
-	private int price;
-	
-	public Movie(String title, int price) {
+
+	public Movie(String title) {
 		this.title = title;
-		this.price = price;
 	}
-	
+
 	public abstract double getCharge(int daysRented);
 	
 	public int getFrequentRenterPoints(int daysRented) {

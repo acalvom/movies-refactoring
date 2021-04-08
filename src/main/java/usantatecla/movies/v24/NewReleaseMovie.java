@@ -6,8 +6,8 @@ public class NewReleaseMovie extends Movie{
     private static final int DAYS_RENTED_THRESHOLD = 1;
     private static final int FREQUENT_RENTER_POINTS = 2;
 
-    public NewReleaseMovie(String title, int price) {
-        super(title, price);
+    public NewReleaseMovie(String title) {
+        super(title);
     }
 
     @Override
